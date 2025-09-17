@@ -1,4 +1,4 @@
-Aquí yacen los restos mortales de los programas que hemos  hehco para mostrar el movimiento de un cuerpo rígido de acuerdo a Euler.
+Aquí yacen los programas fuente de programas que hemos desarrollado para mostrar el movimiento de un cuerpo rígido de acuerdo a Euler.
 
 Estos programas simulan el movimiento del cuerpo rígido y lo exhiben mediante tres vectores mutuamente ortogonales.  
 

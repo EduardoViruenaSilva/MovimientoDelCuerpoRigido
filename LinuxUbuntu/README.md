@@ -4,8 +4,11 @@ libfreeglut3-dev
 En una terminal:
 
 sudo pkg update
+
 sudo apt install g++
+
 sudo apt install make
+
 sudo apt install freeglut3-dev
 
 

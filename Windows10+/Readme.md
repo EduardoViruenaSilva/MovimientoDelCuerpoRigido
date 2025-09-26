@@ -36,7 +36,7 @@ Instalar GCC (compilador) y make:
 ```
 
 ## Paso 3: Instalar OpenGL y FreeGLUT
-OpenGL ya viene incluido en Windows, pero necesitas las bibliotecas de desarrollo y FreeGLUT:
+OpenGL ya viene incluido en Windows, pero se necesitan las bibliotecas de desarrollo y FreeGLUT:
 
 ```console
 pacman -S mingw-w64-x86_64-freeglut mingw-w64-x86_64-glew

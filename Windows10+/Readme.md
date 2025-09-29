@@ -46,25 +46,14 @@ pacman -S mingw-w64-x86_64-freeglut mingw-w64-x86_64-glew
 ```console
 pacman -s unzip
 ```
-## Paso 5: Descargar los programas fuente.
 
-```console 
-wget https://michelle.esfm.ipn.mx/eduardo.viruena/DrPina/DrPina.zip
-```
-
-## Paso 6: Descomprimir el archivo zip
+## Paso 5. Compilar para obtener inercial3.exe y trompo3.exe
 
 ```console
-unzip DrPina.zip
-```
-
-## Paso 7. Compilar para obtener inercial3.exe y trompo3.exe
-
-```console
-cd DrPina/win
+cd DrPina/windows10+
 make
 ```
-## Paso 8:  Llevar los ejecutables a un directorio adecuado.
+## Paso 6:  Llevar los ejecutables a un directorio adecuado.
 
 Supondremos que USUARIO es el nombre de la cuenta de Windows en la que se está trabajando y 
 que dicha cuenta está en el disco C, si no es así hay que sustituir "c"  por la letra del 

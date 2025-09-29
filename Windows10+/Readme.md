@@ -44,7 +44,7 @@ pacman -S mingw-w64-x86_64-freeglut mingw-w64-x86_64-glew
 ## Paso 4: Instalar herramientas adicionales
 
 ```console
-pacman -s unzip
+pacman -S unzip
 ```
 
 ## Paso 5. Compilar para obtener inercial3.exe y trompo3.exe

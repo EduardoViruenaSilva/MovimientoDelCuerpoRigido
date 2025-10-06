@@ -3,7 +3,9 @@
 Compilar trompo3 e inercial3 en Windows 10+ es un proceso delicado.
 Siga cuidadosamente las instrucciones.
 
-## Paso 1: Instalar MSYS2
+## Requisitos
+
+### MSYS2
 
 Descargar MSYS2 desde el sitio oficial:
 →[MSYS2](https://www.msys2.org/)
@@ -12,54 +14,57 @@ Hay que eligir la versión según el sistema que se use, generalmente msys2-x86_
 
 Una vez descargado el instalador, hay que ejecutarlo y seguir los pasos (acepte la configuración predeterminada).  En la última ventana de diálogo se pregunta si se quiere ejecutar MSYS2, preferentmente no hacerlo.
 
-## MUY IMPORTANTE
+### MUY IMPORTANTE
 Abrir MSYS2 (buscar "MSYS2 MinGW 64-bit" en el menú de Windows).
 
-
-Actualizar los paquetes (ejecutar en la terminal de MSYS2):
+### Actualizar los paquetes 
+Ejecutar en la terminal de MSYS2:
 ```console
  pacman -Syu
 ```
-Si pide cerrar la terminal, hay que hacerlo y volver a abrirla para continuar.
+Si MSYS2 pide cerrar la terminal, hay que hacerlo y volver a abrirla para continuar.
 
-Actualizar el resto de paquetes:
+### Actualizar el resto de paquetes:
 
 ```console
  pacman -Su
 ```
 
-## Paso 2: Instalar herramientas de compilación
-Instalar GCC (compilador) y make:
+### Instalar el compilador, bibliotecas y herramientas.
+
+Instalar g++ (compilador C/C++) y make:
 
 ```console
  pacman -S --needed base-devel mingw-w64-x86_64-gcc mingw-w64-x86_64-make
 ```
 
-## Paso 3: Instalar OpenGL y FreeGLUT
-OpenGL ya viene incluido en Windows, pero se necesitan las bibliotecas de desarrollo y FreeGLUT:
+Instalar OpenGL y FreeGLUT
+OpenGL ya viene incluido en Windows pero se necesitan las bibliotecas de GLEW y FreeGLUT:
 
 ```console
 pacman -S mingw-w64-x86_64-freeglut mingw-w64-x86_64-glew
 ```
-## Paso 4: Instalar herramientas adicionales
+
+###Descarga y descompresión de los programas 
+
+Descargar el archivo MovimientoDelCuerpoRigido-main.zip de GitHub.com
+
+Para descomprimirlo, hay que dar clic con el botón derecho sobre el archivo descargado, 
+en el menú que se exhibe hay que elegir EXTRAER/EXTRACT
+
+En este punto hay que ubicar los archivos extraídos.  Si la descarga se hizo por el 
+usuario USUARIO, en el disco C:, en el subdirectorio de Descargas, en la terminal de
+MSYS2 hay que dar la instrucción:
 
 ```console
-pacman -S unzip
+cd /c/Users/USUARIO/Descargas/MovimientoDelCuerpoRigido-main/Windows10+
 ```
 
-## Paso 5. Compilar para obtener inercial3.exe y trompo3.exe
+### Compilación
 
+Para compilar los programas basta dar la instrucción
 ```console
-cd DrPina/windows10+
 make
 ```
-## Paso 6:  Llevar los ejecutables a un directorio adecuado.
+en la terminal de MSYS2 después de haber encontrado el directorio de los programas fuente.
 
-Supondremos que USUARIO es el nombre de la cuenta de Windows en la que se está trabajando y 
-que dicha cuenta está en el disco C, si no es así hay que sustituir "c"  por la letra del 
-disco en donde se encuentre la cuenta de USUARIO.
-
-```console
- mkdir /c/Users/USUARIO/Documentos/DrPina
- cp *.exe /c/Users/USUARIO/Documentos/DrPina
-```

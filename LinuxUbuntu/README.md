@@ -1,4 +1,4 @@
-En un sistema Linux/Ubunto 22.04 o posterior, hay que instalar el comilardor gcc, la herramienta make y la biblioteca freeglut3-dev
+En un sistema Linux/Ubunto 22.04 o posterior, hay que instalar el compilardor gcc, la herramienta make y la biblioteca freeglut3-dev
 
 La forma más sencilla de instalarlos es abrir una terminal (ctrl-alt-T):
 

@@ -1,6 +1,6 @@
-...H1
+```H1
 Requisitos
-...
+```
 En un sistema Linux/Ubunto 22.04 o posterior, hay que instalar 
 
 unzip, para descomprimir los programas

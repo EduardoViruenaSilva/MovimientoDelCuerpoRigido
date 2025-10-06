@@ -45,7 +45,7 @@ OpenGL ya viene incluido en Windows pero se necesitan las bibliotecas de GLEW y 
 pacman -S mingw-w64-x86_64-freeglut mingw-w64-x86_64-glew
 ```
 
-###Descarga y descompresión de los programas 
+### Descarga y descompresión de los programas 
 
 Descargar el archivo MovimientoDelCuerpoRigido-main.zip de GitHub.com
 

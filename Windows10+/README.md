@@ -59,11 +59,6 @@ MSYS2 hay que dar la instrucción:
 ```console
 cd /c/Users/USUARIO/Descargas/MovimientoDelCuerpoRigido-main/Windows10+
 ```
-En caso de que se haya descargado el programa por el usuario USAURIO en el disco E: en la 
-carpeta Movimiento, la instrucción anterior sería entonces:
-```console
-cd /e/Users/USAURIO/Movimiento/MovimientoDelCuerpoRigido-main/Windows10+
-```
 
 ### Compilación
 

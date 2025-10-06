@@ -22,6 +22,8 @@ sudo apt install glut3-dev
 Descargar el archivo MovimientoDelCuerpoRigido-main.zip de GitHub.com y descomprimirlos:
 ```console
 unzip MovimientoDelCuerpoRigido-main.zip
+cd MovimientoDelCuerpoRigido-main.zip
+cd LinuxUbuntu
 ```
 
 ## Compilación

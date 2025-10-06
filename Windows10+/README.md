@@ -1,6 +1,6 @@
 # Windows 10+
 
-Compilar trompo3 e inercial3 en Windows 10+ es un proceso delicado.
+Compilar los programas en Windows 10+ es un proceso delicado.
 Siga cuidadosamente las instrucciones.
 
 ## Requisitos

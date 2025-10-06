@@ -1,6 +1,5 @@
-```H1
-Requisitos
-```
+## Requisitos
+
 En un sistema Linux/Ubunto 22.04 o posterior, hay que instalar 
 
 unzip, para descomprimir los programas
@@ -18,24 +17,21 @@ sudo apt install make
 sudo apt install glut3-dev
 ```
 
-```H1
-Descargar los programas
-```
+## Descargar los programas
 
 Descargar el archivo MovimientoDelCuerpoRigido-main.zip de GitHub.com y descomprimirlos:
 ```console
 unzip MovimientoDelCuerpoRigido-main.zip
 ```
 
-```H1
-Compilación
-```
+## Compilación
+
 Para compilar los programas, hay que descargarlos en un subdirectorio y dar la instrucción:
 ```console
 make
 ```
 
-Para ejecutar:
+## Ejecución
 
 Movimiento del cuerpo rígido visto desde el sistema de referencia:
 ```console

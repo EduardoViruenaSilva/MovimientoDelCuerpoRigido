@@ -52,12 +52,17 @@ Descargar el archivo MovimientoDelCuerpoRigido-main.zip de GitHub.com
 Para descomprimirlo, hay que dar clic con el botón derecho sobre el archivo descargado, 
 en el menú que se exhibe hay que elegir EXTRAER/EXTRACT
 
-En este punto hay que ubicar los archivos extraídos.  Si la descarga se hizo por el 
-usuario USUARIO, en el disco C:, en el subdirectorio de Descargas, en la terminal de
+En este punto hay que ubicar los archivos extraídos.  Supondremos que la descarga se hizo por el 
+usuario USUARIO en el disco C: en el subdirectorio de Descargas.  En la terminal de
 MSYS2 hay que dar la instrucción:
 
 ```console
 cd /c/Users/USUARIO/Descargas/MovimientoDelCuerpoRigido-main/Windows10+
+```
+En caso de que se haya descargado el programa por el usuario USAURIO en el disco E: en la 
+carpeta Movimiento, la instrucción anterior sería entonces:
+```console
+cd /e/Users/USAURIO/Movimiento/MovimientoDelCuerpoRigido-main/Windows10+
 ```
 
 ### Compilación
@@ -66,5 +71,9 @@ Para compilar los programas basta dar la instrucción
 ```console
 make
 ```
-en la terminal de MSYS2 después de haber encontrado el directorio de los programas fuente.
+en la terminal de MSYS2 después de haberse ubicado el directorio de los programas fuente.
+La compilación generará dos programas ejecutables:  trompo3.exe e inercial.exe
+
+
+### Ejecución
 

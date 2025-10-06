@@ -77,3 +77,12 @@ La compilación generará dos programas ejecutables:  trompo3.exe e inercial.exe
 
 ### Ejecución
 
+
+Movimiento del cuerpo rígido visto desde el sistema de referencia:
+
+./inercial3
+
+Movimiento del cuerpo rígido con el sistema de referencia montado en el cuerpo mismo:
+
+./trompo3
+

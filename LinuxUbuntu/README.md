@@ -35,7 +35,7 @@ make
 
 ## Ejecución
 
-Movimiento del cuerpo rígido visto desde el sistema de referencia:
+Movimiento del cuerpo rígido visto desde el sistema inercial:
 ```console
 ./inercial3
 ```

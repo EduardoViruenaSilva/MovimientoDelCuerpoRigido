@@ -14,7 +14,7 @@ sudo pkg update
 sudo apt install unzip 
 sudo apt install g++
 sudo apt install make
-sudo apt install glut3-dev
+sudo apt install freeglut3-dev
 ```
 
 ## Descargar los programas
